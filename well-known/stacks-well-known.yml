@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of Stacks base hosts (/.well-known/*)
+endpoints:
+- path: /.well-known/security.txt
+  host: app.stacks.ai
+  status: 200
+  file: stacks-security.txt
+  type: SecurityTxt
+- path: /.well-known/security.txt
+  host: stacks.ai
+  status: 404
+- path: /.well-known/openid-configuration
+  host: stacks.ai
+  status: 404
+- path: /.well-known/openid-configuration
+  host: app.stacks.ai
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  host: stacks.ai
+  status: 404
+- path: /.well-known/api-catalog
+  host: stacks.ai
+  status: 404
+- path: /.well-known/ai-plugin.json
+  host: stacks.ai
+  status: 404
+notes: >-
+  Only a security.txt (Contact + Expires) is published, served from app.stacks.ai.
+  No OpenID/OAuth discovery, API catalog, or AI plugin manifest is exposed. The
+  root stacks.ai host does not serve a security.txt.

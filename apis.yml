@@ -1,8 +1,30 @@
 aid: stacks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stacks.png
 name: Stacks
-description: 'Stacks is a company surfaced as a portfolio company of eqt-ventures, general-catalyst, lux-capital,
-  union-square-ventures, version-one-ventures and added to the API Evangelist network as a stub for enrichment.
-  Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Stacks is an AI-native financial close and accounting platform for controllers,
+  CFOs, and accounting teams. It automates the monthly close across existing ERPs
+  with agentic tooling for account reconciliations and transaction matching,
+  journal-entry posting and review, close-management checklists and approvals, and
+  AI-powered analysis, variance explanation, and reporting. Stacks connects directly
+  to ERP systems (Microsoft Dynamics 365, NetSuite, SAP S/4HANA, Workday), data
+  warehouses (Snowflake, Databricks, BigQuery, Redshift), file storage, and
+  spreadsheets, and offers an Excel add-in for manual journals. A developer API for
+  custom reconciliation logic is announced as "coming soon." Stacks is a fintech
+  company backed by EQT Ventures, General Catalyst, Lux Capital, Union Square
+  Ventures, and Version One Ventures. Profile enriched by the API Evangelist
+  pipeline from public web surfaces (no public API specification is yet available).
 url: https://raw.githubusercontent.com/api-evangelist/stacks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,10 +38,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Accounting
+- Financial Close
+- Reconciliation
+- ERP
+- Artificial Intelligence
+- Agentic
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -29,3 +57,30 @@ maintainers:
 common:
 - type: Website
   url: https://stacks.ai/
+- type: SignUp
+  url: https://app.stacks.ai
+- type: Blog
+  url: https://stacks.ai/resources/news
+- type: PrivacyPolicy
+  url: https://stacks.ai/privacy-policy
+- type: TrustCenter
+  url: https://trust.stacks.ai
+- type: Support
+  url: mailto:support@stacks.ai
+- type: LLMsTxt
+  url: llms/stacks-llms.txt
+- type: WellKnown
+  url: well-known/stacks-well-known.yml
+- type: SecurityTxt
+  url: well-known/stacks-security.txt
+- type: VulnerabilityDisclosure
+  url: security/stacks-vulnerability-disclosure.yml
+- type: Security
+  url: security/stacks-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/stacks-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
