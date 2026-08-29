@@ -37,6 +37,9 @@ description: >-
   Ventures, and Version One Ventures. Profile enriched by the API Evangelist
   pipeline from public web surfaces (no public API specification is yet available).
 url: https://raw.githubusercontent.com/api-evangelist/stacks/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Profile enriched by the API Evangelist pipeline from public web surfaces (no public API specification is yet available)."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
