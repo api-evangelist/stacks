@@ -25,7 +25,19 @@ endpoints:
 - path: /.well-known/ai-plugin.json
   host: stacks.ai
   status: 404
-notes: >-
-  Only a security.txt (Contact + Expires) is published, served from app.stacks.ai.
-  No OpenID/OAuth discovery, API catalog, or AI plugin manifest is exposed. The
-  root stacks.ai host does not serve a security.txt.
+notes: Only a security.txt (Contact + Expires) is published, served from app.stacks.ai. No OpenID/OAuth
+  discovery, API catalog, or AI plugin manifest is exposed. The root stacks.ai host does not serve a security.txt.
+hosts:
+- host: ''
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: stacks-security.txt
+    type: SecurityTxt
+x-shape-fix:
+  converted: '2026-08-20'
+  from: endpoints
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent. Promoted ONLY the 2xx rows out of
+    the probe log; non-2xx probes are real negative results and were left in place, not converted into
+    documents.
