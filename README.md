@@ -64,6 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Stacks is a company surfaced as a portfolio company of eqt-ventures, general-catalyst, lux-capital, union-square-ventures, version-one-ventures and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.
+Stacks is an AI-native financial close and accounting platform for controllers, CFOs, and accounting teams. It automates the monthly close across existing ERPs with agentic tooling for account reconciliations and transaction matching, journal-entry posting and review, close-management checklists and approvals, and AI-powered analysis, variance explanation, and reporting. Stacks connects directly to ERP systems (Microsoft Dynamics 365, NetSuite, SAP S/4HANA, Workday), data warehouses (Snowflake, Databricks, BigQuery, Redshift), file storage, and spreadsheets, and offers an Excel add-in for manual journals. A developer API for custom reconciliation logic is announced as "coming soon." Stacks is a fintech company backed by EQT Ventures, General Catalyst, Lux Capital, Union Square Ventures, and Version One Ventures. Profile enriched by the API Evangelist pipeline from public web surfaces (no public API specification is yet available).
 
-Backed by: eqt-ventures, general-catalyst, lux-capital, union-square-ventures, version-one-ventures — https://stacks.ai/
+**Areas:** Company · Fintech · Accounting · Financial Close · Reconciliation · ERP · Artificial Intelligence · AI Agents
+
+## Stacks on APIs.io
+
+Everything profiled for Stacks is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/stacks/](https://apis.io/providers/stacks/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [stacks](https://apis.io/servers/stacks/stacks/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Stacks Domain Security](https://apis.io/security/stacks/stacks-domain-security/)
+- [Stacks Vulnerability Disclosure](https://apis.io/security/stacks/stacks-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://stacks.ai/)
+- [Sign up](https://app.stacks.ai)
+- [Blog](https://stacks.ai/resources/news)
+- [Trust centre](https://trust.stacks.ai)
+- [Privacy policy](https://stacks.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 12.9** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 18.4 |
+
+**Agent readiness 8.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/stacks/](https://apis.io/providers/stacks/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Stacks: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/stacks/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
